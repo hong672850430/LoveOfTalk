@@ -1,0 +1,46 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/mall/mall",
+        "pages/service/service",
+        "pages/me/me"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "爱聊电子科技",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "light",
+        "enablePullDownRefresh": false
+    },
+    "tabBar": {
+        "color": "#857A7A",
+        "selectedColor": "#68F07F",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "公司简介",
+                "iconPath": "images/home.png",
+                "selectedIconPath": "images/homeSelected.png"
+            },
+            {
+                "pagePath": "pages/mall/mall",
+                "text": "爱聊商城",
+                "iconPath": "images/mall.png",
+                "selectedIconPath": "images/mallSelected.png"
+            },
+            {
+                "pagePath": "pages/service/service",
+                "text": "服务中心",
+                "iconPath": "images/service.png",
+                "selectedIconPath": "images/serviceSelected.png"
+            },
+            {
+                "pagePath": "pages/me/me",
+                "text": "我的分销",
+                "iconPath": "images/me.png",
+                "selectedIconPath": "images/meSelected.png"
+            }
+        ]
+    }
+}

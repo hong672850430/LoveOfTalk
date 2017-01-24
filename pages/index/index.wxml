@@ -1,0 +1,12 @@
+<swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="2000" duration="1000">
+  <block wx:for="{{imgUrls}}" wx:key="*this">
+    <swiper-item>
+      <image src="{{item}}" class="body-swiper-item" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class="body" bindtap="onChangeText">
+
+  <!--<button bindtap="onChangeText"> {{text}} </button>-->
+  {{text}}
+</view>
