@@ -7,6 +7,13 @@
 </swiper>
 <view class="body" bindtap="onChangeText">
 
-  <!--<button bindtap="onChangeText"> {{text}} </button>-->
-  {{text}}
+  <!-- 分类导航 -->
+  <view class="nav-title"></view>
+  <view>
+    <block wx:for="{{navItems}}" wx:key="url">
+      <view class="wrap-item {{item.isSplot ? 'exp' : ''}}">
+        <navigator url="../{{item.url}}/{{item.url}}" hover-class="navigator-hover">{{item.name}}</navigator>
+      </view>
+    </block>
+  </view>
 </view>

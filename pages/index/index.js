@@ -7,7 +7,35 @@ Page({
        'http://loveoftalk-1251154446.cossh.myqcloud.com/banner/banner3.jpg',
        'http://loveoftalk-1251154446.cossh.myqcloud.com/banner/banner4.jpg',
        'http://loveoftalk-1251154446.cossh.myqcloud.com/banner/banner5.jpg'
-      ]
+      ],
+      navItems:[
+      {
+        name:'公司简介',
+        url:'cube1'
+      },
+      {
+        name:'奖金制度',
+        url:'cube2',
+        isSplot:true
+      },
+      {
+        name:'App下载',
+        url:'cube3'
+      },
+      {
+        name:'新手指南',
+        url:'cube4'
+      },
+      {
+        name:'分销中心',
+        url:'cube5',
+        isSplot:true
+      },
+      {
+        name:'疑难解答',
+        url:'cube6'
+      }
+    ]
   },
   onLoad:function(options){
     // 生命周期函数--监听页面加载

@@ -3,7 +3,13 @@
         "pages/index/index",
         "pages/mall/mall",
         "pages/service/service",
-        "pages/me/me"
+        "pages/me/me",
+        "pages/cube1/cube1",
+        "pages/cube2/cube2",
+        "pages/cube3/cube3",
+        "pages/cube4/cube4",
+        "pages/cube5/cube5",
+        "pages/cube6/cube6"
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",

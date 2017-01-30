@@ -1,0 +1,20 @@
+.body-text {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20rpx;
+  align-content: space-around;
+}
+
+.body-phone {
+  display: flex;
+  padding-top: 20rpx;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.body-net {
+  display: flex;
+  padding-top: 20rpx;
+  font-weight: bold;
+  font-size: 1rem;
+}
