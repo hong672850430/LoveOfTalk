@@ -1,0 +1,9 @@
+.body-image{
+    display: flex;
+    flex-direction: column;
+    padding: 50rpx;
+}
+.body-contentUrl{
+    display: flex;
+    padding-top: 20rpx;
+}

@@ -1,0 +1,6 @@
+<view class="body-image">
+  <block wx:for="{{imgUrls}}" wx:key="*this">
+    <navigator class="body-contentUrl" url="../{{item.navUrl}}/{{item.navUrl}}">{{item.content}}</navigator>
+    <image src="{{item.imgUrl}}" />
+  </block>
+</view>

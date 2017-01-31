@@ -1,0 +1,6 @@
+.body-text {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20rpx 20rpx 20rpx 20rpx;
+  text-indent:10rpx;
+}

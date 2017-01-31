@@ -1,0 +1,50 @@
+/**index.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100rpx 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd;
+} 
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.userinfo-avatar {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 20rpx;
+  border-radius: 50%;  
+}
+
+.userinfo-nickname {
+  color: #000;
+  font-size: 1.5em;
+}
+
+.usermotto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+.contactOur-Content{
+    display: flex;
+    flex-direction: column;
+    padding: 10rpx;
+}
+.contactOur-Title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    padding-top: 10rpx;
+}

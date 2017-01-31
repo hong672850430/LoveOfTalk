@@ -19,20 +19,20 @@ Page({
         isSplot:true
       },
       {
-        name:'App下载',
+        name:'产品展示',
         url:'cube3'
       },
       {
-        name:'新手指南',
+        name:'招商加盟',
         url:'cube4'
       },
       {
-        name:'分销中心',
+        name:'疑难解答',
         url:'cube5',
         isSplot:true
       },
       {
-        name:'疑难解答',
+        name:'在线客服',
         url:'cube6'
       }
     ]

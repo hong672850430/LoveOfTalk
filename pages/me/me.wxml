@@ -1,1 +1,22 @@
-<view>  服务中心测试页面  </view>
+
+<!--index.wxml-->
+<view class="container">
+  <view bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+</view>
+<!--<view class="usermotto">
+  <text class="user-motto">{{motto}}</text>
+</view>-->
+<view class="contactOur-Title">
+    公司联系方式：
+</view>
+<text class="contactOur-Content">
+  河南爱聊电子科技有限公司
+  联系人：梁经理
+  咨询电话:13525549007 0371-63376325　　　 
+  咨询QQ：3269017172
+  网址：http://www.henanailiao.com/contact.html
+  公司地址：河南省郑州市北环路索凌路中建大厦
+</text>

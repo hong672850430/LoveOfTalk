@@ -9,7 +9,20 @@
         "pages/cube3/cube3",
         "pages/cube4/cube4",
         "pages/cube5/cube5",
-        "pages/cube6/cube6"
+        "pages/cube6/cube6",
+        "pages/cube3-1/cube3-1",
+        "pages/cube3-2/cube3-2",
+        "pages/cube3-3/cube3-3",
+        "pages/cube3-4/cube3-4",
+        "pages/cube3-5/cube3-5",
+        "pages/cube3-6/cube3-6",
+        "pages/cube3-7/cube3-7",
+        "pages/cube3-8/cube3-8",
+        "pages/cube3-9/cube3-9",
+        "pages/cube3-10/cube3-10",
+        "pages/cube3-11/cube3-11",
+        "pages/cube3-12/cube3-12",
+        "pages/cube3-13/cube3-13"
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",
@@ -30,20 +43,8 @@
                 "selectedIconPath": "images/homeSelected.png"
             },
             {
-                "pagePath": "pages/mall/mall",
-                "text": "爱聊商城",
-                "iconPath": "images/mall.png",
-                "selectedIconPath": "images/mallSelected.png"
-            },
-            {
-                "pagePath": "pages/service/service",
-                "text": "服务中心",
-                "iconPath": "images/service.png",
-                "selectedIconPath": "images/serviceSelected.png"
-            },
-            {
                 "pagePath": "pages/me/me",
-                "text": "我的分销",
+                "text": "个人信息",
                 "iconPath": "images/me.png",
                 "selectedIconPath": "images/meSelected.png"
             }

@@ -1,0 +1,5 @@
+<view class="body-image">
+  <block wx:for="{{imgUrls}}" wx:key="*this">
+    <image mode="widthFix" src="{{item.imgUrl}}" />
+  </block>
+</view>
