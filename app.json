@@ -27,7 +27,7 @@
     "window": {
         "navigationBarBackgroundColor": "#ffffff",
         "navigationBarTextStyle": "black",
-        "navigationBarTitleText": "爱聊电子科技",
+        "navigationBarTitleText": "河南爱聊商城",
         "backgroundColor": "#eeeeee",
         "backgroundTextStyle": "light",
         "enablePullDownRefresh": false
@@ -44,7 +44,7 @@
             },
             {
                 "pagePath": "pages/me/me",
-                "text": "个人信息",
+                "text": "联系我们",
                 "iconPath": "images/me.png",
                 "selectedIconPath": "images/meSelected.png"
             }
