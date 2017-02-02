@@ -46,11 +46,11 @@ Page({
           text: '这是公司简介详细内容。。。。。'
       })
   },
-  onShareAppMessage: function() {
+    onShareAppMessage: function () {
     // 用户点击右上角分享
     return {
-      title: 'title', // 分享标题
-      desc: 'desc', // 分享描述
+      title: '河南爱聊商城', // 分享标题
+      desc: '河南爱聊商城小程序！', // 分享描述
       path: 'path' // 分享路径
     }
   }

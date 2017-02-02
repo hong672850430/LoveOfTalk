@@ -8,8 +8,8 @@ Page({
   onShareAppMessage: function() {
     // 用户点击右上角分享
     return {
-      title: 'title', // 分享标题
-      desc: 'desc', // 分享描述
+      title: '招商加盟', // 分享标题
+      desc: '河南爱聊商城招商加盟详细内容！！！', // 分享描述
       path: 'path' // 分享路径
     }
   }
